@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+*{
+	margin:0;
+	padding:0;
+}
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+h1{
+	font-size:40px;
+}
+.div{
+	width:100%;
+	text-align: center;
+	padding-top:300px;
+	padding-bottom: 300px;
+}
+.div1{
+	background: orange;
+}
+.div2{
+	background: red;
+}
+.div3{
+	background: yellow;
+}
+.div4{
+	background: #ff342f;
+}
+.div5{
+	background: #002d44;
+}

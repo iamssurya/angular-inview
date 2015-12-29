@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="sample">
+	<head>
+		<title>Angular Inview Example</title>
+		<link rel="stylesheet" href="dist/css/angular-inview.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body ng-controller="SampleController">
+		<div class="container">
+			<div class="div div1" slide-inview="up">
+				<h1>WOW</h1>
+			</div>
+			<div class="div div2" slide-inview="up">
+				<h1>SLIDE UP</h1>
+			</div>
+			<div class="div div3" slide-inview="down">
+				<h1>SLIDE DOWN</h1>
+			</div>
+			<div class="div div4" slide-inview="left">
+				<h1>SLIDE LEFT</h1>
+			</div>
+			<div class="div div5" slide-inview="right">
+				<h1>SLIDE RIGHT</h1>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="dist/js/jquery.inview.js"></script>
+		<script src="dist/js/angular.inview.js"></script>
+
+		<script>
+			var app = angular.module('sample',['angular-inview']);
+			app.controller('SampleController',['$scope',function($scope){
+				//console.log(values);
+			}]);
+		</script>
+	</body>
+</html>
