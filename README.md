@@ -1,8 +1,9 @@
 Angular InView Event
 ===
 
-*Author: Surya S
-*Original Jquery Version Author: Remy Sharp
+*Author:* Surya S
+
+*Original Jquery Version Author:* Remy Sharp
 
 
 ## What it does?
@@ -11,20 +12,20 @@ You can make your section of webpage to appear with slide effects when the user 
 
 ## Installation
 
-	Dependent on Jquery and Angular
+Dependent on Jquery and Angular
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
-	For Downloading Angular InView Event plugin, 
+For Downloading Angular InView Event plugin, 
 
 	git clone https://github.com/iamssurya/angular-inview.git
 
 	or
 
-	npm install angular-inview
+	npm install ng-inview
 
-	Add the angular-inview libraries to your project
+Add the angular-inview libraries to your project
 
 	<link rel="stylesheet" href="dist/css/angular-inview.css">
 	<script src="dist/js/jquery.inview.js"></script>
@@ -45,7 +46,7 @@ You can make your section of webpage to appear with slide effects when the user 
 
 ## More Info
 	
-*Contact me @ iamssurya@gmail.com for any queries
+Contact me @ *iamssurya@gmail.com* for any queries
 
 
 

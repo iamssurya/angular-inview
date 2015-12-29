@@ -1,0 +1,29 @@
+{
+  "name": "ng-inview",
+  "version": "0.0.01",
+  "description": "Applying slide effects to webpage divisions onview",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamssurya/angular-inview.git"
+  },
+  "keywords": [
+    "inview",
+    "angular",
+    "inview",
+    "onload",
+    "effect",
+    "slide",
+    "animations",
+    "slider"
+  ],
+  "author": "Surya S <iamssurya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamssurya/angular-inview/issues"
+  },
+  "homepage": "https://github.com/iamssurya/angular-inview"
+}
